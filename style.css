@@ -1,0 +1,105 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Encabezado */
+.header {
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #007bff;
+}
+
+.header h1 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Menú de accesos y botones */
+.menu-accesos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Colores específicos de los botones */
+.btn-submit {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.btn-derivacion {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-derivacion:hover {
+    background-color: #0056b3;
+}
+
+.btn-whatsapp {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-whatsapp:hover {
+    background-color: #218838;
+}
